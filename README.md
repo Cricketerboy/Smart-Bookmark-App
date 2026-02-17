@@ -31,3 +31,15 @@ Users can authenticate with Google, add bookmarks, delete them, and sync updates
 - Problem: Realtime subscription failed with CHANNEL_ERROR and connection status showed CLOSED
 - Cause: Supabase Realtime + Row Level Security (RLS) + JWT authentication caused websocket authorization conflicts.
 - Solution: Instead of continuing with unstable websocket configuration, I replaced Supabase Realtime with the browser-native BroadcastChannel API for multi-tab synchronization.This provided instant updates without backend realtime configuration complexity.
+
+---
+
+## Getting Started First, run the development server:
+bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
