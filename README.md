@@ -35,7 +35,4 @@ Users can authenticate with Google, add bookmarks, delete them, and sync updates
 ---
 
 ## Getting Started 
-First, run the development server:
-
-bash
-npm run dev
+- First, run the development server: npm run dev
