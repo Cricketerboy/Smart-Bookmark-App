@@ -31,7 +31,7 @@ Clone the repository:
 
 ```bash
 git clone
-cd smart-bookmark-app
+cd smart-bookmark-app```
 
 ## Problems Faced & How They Were Solved
 
