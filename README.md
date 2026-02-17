@@ -25,13 +25,6 @@ Users can authenticate with Google, add bookmarks, delete them, and sync updates
 
 ---
 
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone
-cd smart-bookmark-app```
 
 ## Problems Faced & How They Were Solved
 
